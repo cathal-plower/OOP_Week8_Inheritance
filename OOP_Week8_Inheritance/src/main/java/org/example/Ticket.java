@@ -10,16 +10,25 @@ public class Ticket {
         this.holderName = holderName;
         this.basePrice = basePrice;
     }
-    public String getEventName() { return eventName; }
-    public void setEventName(String eventName) { this.eventName = eventName; }
-    public String getHolderName() { return holderName; }
-    public void setHolderName(String holderName) { this.holderName = holderName; }
-    public double getBasePrice() { return basePrice; }
-    public void setBasePrice(double basePrice) { this.basePrice = basePrice;
+
+    public String getEventName() {
+        return eventName;
     }
+
+    public String getHolderName() {
+        return holderName;
+    }
+
+    public double getBasePrice() {
+        return basePrice;
+    }
+
+    public double calculatePrice() {
+        return basePrice;
+    }
+
     @Override
     public String toString() {
-        return "Ticket{eventName='" + eventName + "', holderName='" + holderName + "', basePrice=" + basePrice + '}';
-
+        return "Event: " + eventName;
     }
 }
