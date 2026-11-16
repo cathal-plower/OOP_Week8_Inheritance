@@ -5,9 +5,9 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-        Ticket standard = new Ticket("Summer Concert", "Alice", 50.0);
-        StudentTicket student = new StudentTicket("Summer Concert", "Bob", 50.0, "S12345");
-        VIPTicket vip = new VIPTicket("Summer Concert", "Charlie", 50.0);
+        Ticket standard = new Ticket("Summer Concert", "Alice", 80.0);
+        StudentTicket student = new StudentTicket("Summer Concert", "Bob", 80.0, "S12345");
+        VIPTicket vip = new VIPTicket("Summer Concert", "Charlie", 80.0);
 
         System.out.println("Event: " + standard.getEventName());
 
