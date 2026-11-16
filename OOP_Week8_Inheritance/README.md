@@ -12,3 +12,4 @@
 5. Design Question ?
    No as ticket cannot be both a StudentTicket and a VIPTicket at the same time.
    This shows that inheritance has limits because a class can only extend one other class.
+--
